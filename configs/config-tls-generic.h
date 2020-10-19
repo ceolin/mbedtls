@@ -289,6 +289,10 @@
 #define MBEDTLS_SSL_EXPORT_KEYS
 #endif
 
+#if defined(CONFIG_MBEDTLS_SSL_ALPN)
+#define MBEDTLS_SSL_ALPN
+#endif
+
 #if defined(CONFIG_MBEDTLS_CIPHER)
 #define MBEDTLS_CIPHER_C
 #endif
